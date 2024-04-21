@@ -1,0 +1,48 @@
+.Calc {
+    
+    min-height: calc(100vh - 70px - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.Calc input {
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    background-color: rgb(231, 242, 255);
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.Calc button {
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    flex-wrap: wrap;
+
+border: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(98, 132, 243);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Calc p {
+    text-align: center;
+
+}
+
+.result {
+    padding: 10px;
+    font-size: 30px;
+}

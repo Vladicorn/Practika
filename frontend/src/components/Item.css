@@ -1,0 +1,30 @@
+.Item {
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    background-color: rgb(231, 242, 255);
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: grid;
+    width: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    
+    flex-wrap: wrap;
+    max-width: 100%;
+
+    text-align: center;
+
+    background-color: rgb(98, 132, 243);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Item p {
+    text-align: center;
+
+}
+

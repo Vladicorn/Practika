@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66191febbce65bb7450d7b0b"
+  },
+    "Calc": "Калькулятор рассрочки",
+    "numberFields": [
+      {
+        "fieldName": "Сумма рассрочки",
+        "field": "a"
+      },
+      {
+        "fieldName": "Ежемесячная ставка",
+        "field": "b"
+      },
+      {
+        "fieldName": "Общая ставка",
+        "field": "c"
+      }
+    ],
+    "formula": "(a * b * c) / (c - 1)"
+}]
